@@ -20,7 +20,7 @@ app.use("/api/v1", userRoutes);
 
 //test route
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Salon server is running" });
+  res.status(200).json({ message: "server is running" });
 });
 
 //connection to database
